@@ -1,0 +1,44 @@
+<html>
+    <head>
+       <title>Vano Edtitorial</title>
+        <meta charset="utf-8">
+		<meta property="og:url" content="http://www.vanoeditorial.cl" />
+    	<meta property="og:type" content="books.genre" />
+    	
+    	<meta property="og:title" content="Vano Editorial - ArtBooks" />
+    	<meta property="og:description" content="ArtBooks de Artistas Chilenos" />
+    	<meta property="og:image" content="http://www.vanoeditorial.cl/fb_post.jpg" />
+        <meta property="books:canonical_name" content="Fine Art" /> 
+        <link rel="icon" type="image/x-icon" href="http://www.vanoeditorial.cl/favicon.ico" />
+    
+       <style>
+         body,html{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            margin: 0;
+            background-color: #4c4c4c;
+            overflow: hidden;
+        }
+      </style>
+      </style>
+    </head>
+    <body>
+        <iframe src="" 
+        width="100%" height="100%" 
+        frameborder="0" 
+        webkitallowfullscreen="true" 
+        mozallowfullscreen="true" 
+        allowfullscreen
+        id="port"
+        >
+       </iframe>
+        <script>
+            let _url= window.location.href;
+            _url  = _url.split("=");
+            _url = "https://archive.org/embed/" + _url[_url.length-1];  
+            document.getElementById("port").src = _url;
+      </script>
+    </body>
+</html>
