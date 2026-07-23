@@ -1,0 +1,97 @@
+a{
+	text-decoration: none;
+}
+
+body > div{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	cursor: pointer;
+}
+#info-box{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	position: absolute;
+	z-index: 9999;
+	cursor: default;
+}
+#info-box *{
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+}
+
+body,html{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	/*
+	background-image: url(fondo6.jpg);
+	*/
+}
+#txt{
+	text-align: center;
+	font-size: 25px;
+	line-height: 35px;
+	letter-spacing: 5px;
+	font-family: sans-serif;
+	color: gainsboro;
+	font-weight: 100;
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#txt ul li{
+	list-style: none;
+}
+#libroActivo{
+    display: block;
+    cursor: pointer;
+}
+#convocatoria{
+	color : white;
+	background-color: black;
+}
+#convocatoria:hover{
+	color : black;
+	background-color: white;
+}
+
+
+.bodyCon{
+	overflow: visible;
+	font-family: sans-serif;
+}
+.bodyCon canvas{
+	position: absolute;
+	right: 0;
+	z-index: -1;
+	
+}
+#con2017{
+	margin-left: 50px;
+	width: 600px;
+	cursor: auto;
+}
+#con2017 span{
+	color : hsl(0,0%,10%);
+	font-size: 60px;
+}
+#con2017 h1, #con2017 p{
+	
+	color : hsl(0,0%,30%);
+}
+#con2017 p{
+	
+	color : hsl(0,0%,50%);
+	margin-left: 40px;
+}
+#con2017 a{
+	border: #c7dbfc 1px solid;
+}
+
+
